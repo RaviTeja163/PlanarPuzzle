@@ -1,3 +1,13 @@
+The game can be played at https://RaviTeja163.github.io/PlanarPuzzle
+
+## PLAYING RULES:
+- The game initially loads with the easy puzzle. We can choose others puzzles by clicking the configuration buttons.
+- We are allowed to select any empty square. We cannot select base squares (already colored) or the unused squares (black).
+- Fill a color to the selected square. We only have the color options of that of the neighbor squares. Other color buttons will be disabled. 
+- You cannot fill a color to a square without having a neighbor square of the same color with the highest label in that color.
+- Continue to fill the squares, and when the puzzle is solved, we automatically get a Congratulations message on the screen.
+- We can reset to the starting configuration at any time by clicking the Reset button.
+
 
 # Getting Started with Create React App
 
@@ -59,11 +69,3 @@ Watch Usage
  › Press Enter to trigger a test run.
 
 If you don't see the above input, then set the environment variable "CI" to be true, something like `set CI=true`, then rerun the instruction.
-
-## PLAYING RULES:
-- The game initially loads with the easy puzzle. We can choose others puzzles by clicking the configuration buttons.
-- We are allowed to select any empty square. We cannot select base squares (already colored) or the unused squares (black).
-- Fill a color to the selected square. We only have the color options of that of the neighbor squares. Other color buttons will be disabled. 
-- You cannot fill a color to a square without having a neighbor square of the same color with the highest label in that color.
-- Continue to fill the squares, and when the puzzle is solved, we automatically get a Congratulations message on the screen.
-- We can reset to the starting configuration at any time by clicking the Reset button.
